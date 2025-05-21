@@ -94,7 +94,7 @@ const Cart = () => {
           <hr />
 
           {isCartEmpty ? (
-            <img src='https://img.freepik.com/premium-vector/modern-design-concept-no-product-found-cart-design_637684-219.jpg?ga=GA1.1.316581448.1737552035&semt=ais_hybrid&w=740' style={{ height: "500px", width: "1000px", marginLeft: "250px", marginTop: "-50px" }} />
+            <img  className='empty-cart' src='https://img.freepik.com/premium-vector/modern-design-concept-no-product-found-cart-design_637684-219.jpg?ga=GA1.1.316581448.1737552035&semt=ais_hybrid&w=740' style={{ height: "500px", width: "500px" }} />
 
           ) :
             (items.map((item, index) => (

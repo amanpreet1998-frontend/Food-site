@@ -50,7 +50,7 @@ const Navbarr = () => {
         <Navbar key={expand} expand={expand} className="navbar-custom-navbar navbar bg-body-primary mb-3">
           <Container fluid>
             <Navbar.Brand><Link to={"/"}>
-              <img src={logo} className="logo  ms-5" alt="logo" />
+              <img src={logo} className="logo ms-2" alt="logo" />
             </Link></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
@@ -81,7 +81,7 @@ const Navbarr = () => {
                     </div>
                     {user ? (
                       <Nav.Link eventKey={2} >
-                        <motion.button whileTap={{ scale: 0.6 }} onClick={handleLogout} className="cursor-pointer me-2">
+                        <motion.button whileTap={{ scale: 0.6 }} onClick={handleLogout} className="logout-dot cursor-pointer me-3">
                           Logout
                         </motion.button>
                       </Nav.Link>

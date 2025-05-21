@@ -106,10 +106,12 @@
     .delivery img {
         height: 150px;
         width: 150px;
-        margin-left: 65px;
-        margin-right: 60px;
+        margin-left: 75px;
+        margin-right: 0px;
     }
-
+.delivery{
+    margin-left: 20px;
+}
     .bg_parallax_scroll h2 {
         font-size: 90px;
     }
@@ -207,6 +209,7 @@
 
     .bg_parallax_scroll h2 {
         font-size: 60px;
+        margin-left: -20px;
     }
 
     .delivery h4 {
@@ -226,14 +229,42 @@
 @media(max-width:376px) and (max-height:668px) {
     .delivery img {
         height: 120px;
-        width: 120px;
-        margin-left: 2px;
+        width: 110px;
+        margin-left: 4px;
         margin-right: 0px;
         padding: 10px;
     }
 
     .bg_parallax_scroll h2 {
         font-size: 60px;
+        margin-left: -20px;
+    }
+
+    .delivery h4 {
+        font-size: medium;
+        font-weight: bolder;
+    }
+
+    .delivery p {
+        font-size: small;
+    }
+
+    .about-para {
+        font-size: large;
+    }
+}
+@media(max-width:355px)  {
+    .delivery img {
+        height: 100px;
+        width: 100px;
+        margin-left: 2px;
+        margin-right: 0px;
+        padding: 10px;
+    }
+
+    .bg_parallax_scroll h2 {
+        font-size: 50px;
+        margin-left: -20px;
     }
 
     .delivery h4 {

@@ -64,7 +64,7 @@ function ReviewPage() {
               <p>
                 30 minutes delivery time. Your food will be delivered to your doorstep within 30 minutes of order confirmation. Track your order in real-time for updates on preparation and delivery.
               </p>
-              <Link to="/" className="btn btn-danger ">
+              <Link to="/" className="contact-button btn btn-danger">
                 <motion.button
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
