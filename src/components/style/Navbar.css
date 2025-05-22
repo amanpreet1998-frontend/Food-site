@@ -114,6 +114,9 @@
 }
 
 @media(max-width:396px) {
+   .logo{
+      width:150px;
+   }
    .dot {
       margin-top: 386px;
       margin-right: 330px;
@@ -121,6 +124,9 @@
 }
 
 @media(max-width:376px) {
+   .logo{
+      width:150px;
+   }
    .dot {
       margin-top: 386px;
       margin-right: 315px;
@@ -128,6 +134,9 @@
 }
 
 @media(max-width:361px) {
+   .logo{
+      width:150px;
+   }
    .dot {
       margin-top: 386px;
       margin-right: 300px;
@@ -136,8 +145,8 @@
 
 @media(max-width:345px) {
    .logo{
-     height:50px;
-     width:90px;
+     height:60px;
+     width:150px;
      margin-left: 0%;
    }
    .dot {

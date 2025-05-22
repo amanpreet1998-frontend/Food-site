@@ -107,7 +107,14 @@
 }
 @media(max-width:880px) {
     .card-button {
-        width: 550px;
+        width: 520px;
+        height: 50px;
+        padding: 5px;
+    }
+}
+@media(max-width:800px) {
+    .card-button {
+        width: 400px;
         height: 50px;
         padding: 5px;
     }
@@ -490,7 +497,7 @@
         box-shadow: 0px 0px 10px #00000015;
         transition: 0.3s;
         animation: fadeIn 1s;
-        margin-left: -55px;
+        margin-left: -50px;
     }
 
     .food-item-image {
