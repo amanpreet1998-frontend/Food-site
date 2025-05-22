@@ -1,13 +1,16 @@
-# Food Ordering Website
+# Food-site
 
-A modern food ordering application built with React and Vite.
+A web application for food delivery and restaurant browsing.
 
 ## Features
+- Browse restaurants
+- Order food
+- Track deliveries
 
-- Browse food items
-- Add to cart
-- User authentication
-- Order tracking
+## Technologies
+- React.js
+- Node.js
+- Express
 
 ## Getting Started
 
