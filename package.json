@@ -1,47 +1,45 @@
 {
-  "name": "vite-project",
+  "name": "food-app-2",
   "version": "1.0.0",
-  "private": true,
-  "type": "module",
+  "description": "A web application for food delivery and restaurant browsing.",
+  "main": "eslint.config.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanpreet1998-frontend/Food-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amanpreet1998-frontend/Food-site/issues"
+  },
+  "homepage": "https://github.com/amanpreet1998-frontend/Food-site#readme",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "tailwindcss": "^4.1.7",
+    "vite": "^6.3.5"
+  },
   "dependencies": {
-    "@reduxjs/toolkit": "^2.8.1",
-    "@tailwindcss/vite": "^4.1.4",
-    "boostrap": "^2.0.0",
+    "@reduxjs/toolkit": "^2.8.2",
+    "autoprefixer": "^10.4.21",
     "bootstrap": "^5.3.6",
     "bootstrap-icons": "^1.13.1",
-    "cors": "^2.8.5",
-    "firebase": "^11.7.3",
-    "framer-motion": "^12.11.4",
+    "firebase": "^11.8.1",
+    "framer-motion": "^12.12.1",
     "fuse.js": "^7.1.0",
-    "git": "^0.1.5",
-    "react": "^19.0.0",
+    "postcss": "^8.5.3",
+    "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
-    "react-dom": "^19.0.0",
+    "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
     "react-redux": "^9.2.0",
-    "react-router": "^7.6.0",
     "react-router-dom": "^7.6.0",
-    "react-toastify": "^11.0.5",
-    "tailwind": "^4.0.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.22.0",
-    "@types/react": "^19.0.10",
-    "@types/react-dom": "^19.0.4",
-    "@vitejs/plugin-react": "^4.3.4",
-    "autoprefixer": "^10.4.21",
-    "eslint": "^9.22.0",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.19",
-    "globals": "^16.0.0",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.6",
-    "vite": "^6.3.1"
+    "react-toastify": "^11.0.5"
   }
 }

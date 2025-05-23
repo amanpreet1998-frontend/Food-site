@@ -41,7 +41,7 @@ const About = () => {
               onHoverStart={() => console.log('hover started!')} src={deliveryBike} />
             <h4>Free Shipping on<br />
               First Order</h4><br />
-            <p>Enjoy free shipping on <br />your first order! <br />Use code FREESHIP at checkout.
+            <p>Enjoy free shipping on <br />your first order! <br />
             </p>
           </div>
           <div>

@@ -10,7 +10,8 @@
 
 @media(max-width:1025px) {
     .place-order {
-        margin-left: 100px;
+        flex-direction: column;
+        margin-left: 250px;
         margin-right: 100px;
     }
 
@@ -23,7 +24,8 @@
 
 @media(max-width:769px) {
     .place-order {
-        margin-left: 50px;
+        flex-direction: column;
+        margin-left: 100px;
         margin-right: 50px;
     }
 
@@ -36,12 +38,13 @@
     .place-order .cart-total button {
         padding: 3px;
         height: 30px;
+        margin-left: 100px;
     }
 }
 
 @media(max-width:700px) {
     .place-order {
-        flex-direction: column-reverse;
+        flex-direction: column;
         margin-left: 100px;
         margin-right: 100px;
     }
@@ -55,7 +58,7 @@
 
 @media(max-width:650px) {
     .place-order {
-        flex-direction: column-reverse;
+        flex-direction: column;
         margin-left: 100px;
         margin-right: 100px;
     }
@@ -69,7 +72,7 @@
 
 @media(max-width:541px) {
     .place-order {
-        flex-direction: column-reverse;
+        flex-direction: column;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -122,7 +125,7 @@
 
 @media(max-width:431px) {
     .place-order {
-        flex-direction: column-reverse;
+        flex-direction: column;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -136,6 +139,7 @@
     .place-order .cart-total button {
         padding: 3px;
         height: 30px;
+        margin-left: 10px;
     }
 }
 
@@ -175,7 +179,7 @@
 
 @media(max-width:415px) {
     .place-order {
-        flex-direction: column-reverse;
+        flex-direction: column;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -189,6 +193,7 @@
     .place-order .cart-total button {
         padding: 3px;
         height: 30px;
+        margin-left: 10px;
     }
 }
 
@@ -228,7 +233,7 @@
 
 @media(max-width:376px) {
     .place-order {
-        flex-direction: column-reverse;
+        flex-direction: column;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -242,6 +247,7 @@
     .place-order .cart-total button {
         padding: 3px;
         height: 30px;
+        margin-left: 10px;
     }
 }
 

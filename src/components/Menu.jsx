@@ -24,14 +24,15 @@ const Menu = () => {
   return (
     <>
       <div className='menu' id="menu" >
+         <img className='menu-line' src='https://img.freepik.com/free-vector/abstract-background-vector-illustration_460848-11793.jpg?ga=GA1.1.316581448.1737552035&semt=ais_hybrid&w=740'/>
         <motion.h1
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
           onHoverStart={() => console.log('hover started!')}
         >Explore our menu</motion.h1>
-        <p className='menuu'>Choose from a diverse menu featuring a delectable array of dishes.Our mission is to satisfy your<br />
+        <h6 className='menuu'>Choose from a diverse menu featuring a delectable array of dishes.Our mission is to satisfy your<br />
           cravings and elevate your dining experience, one delicious meal at a time.
-        </p>
+        </h6>
         <div className="menu-list">
           {menu_list.map((item, index) => (
             <motion.div
