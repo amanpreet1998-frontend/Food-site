@@ -360,8 +360,12 @@ width:700px;
     .cart-promocode {
         justify-content: start;
         margin-top: -10px;
+         width:300px;/*change3*/
+        margin-left:10px;/*change3*/
     }
-
+.cart-promocode-input {
+width:200px;
+}
     .cart-promocode-input button {
         width: max(40vw, 150px);
         padding: 5px 5px;
@@ -369,6 +373,7 @@ width:700px;
         background-color: black;
         color: white;
         border-radius: 4px;
+         margin-left: -50px;
     }
 
     .cart-total button {
@@ -388,7 +393,7 @@ width:700px;
         background: transparent;
         border: none;
         outline: none;
-        padding-left: 50px;
+        padding-left: -150px;
         padding-right: 0px;
     }
 }
@@ -612,7 +617,81 @@ width:700px;
         background: transparent;
         border: none;
         outline: none;
-        padding-left: -20px;
+        padding-left: -150px;
+        padding-right: 0px;
+    }
+}
+@media(max-width:320px) {/*change3*/
+    .cart {
+        margin-top: 100px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .cart-img {
+        height: 50px;
+        width: 10px;
+    }
+
+    .add {
+        height: 20px;
+        width: 20px;
+    }
+
+    .sub {
+        height: 20px;
+        width: 20px;
+    }
+
+    .mul {
+        height: 30px;
+        width: 50px;
+        border-radius: 2px;
+
+        font-size: smaller;
+
+        background-color: red;
+        color: white;
+    }
+
+    .cart-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .cart-promocode {
+        justify-content: start;
+        margin-top: -10px;
+         width:100px;
+        margin-left:5px;
+    }
+
+    .cart-promocode-input button {
+        width: 150px;
+        padding: 5px 5px;
+        height: 30px;
+        background-color: black;
+        color: white;
+        border-radius: 4px;
+    }
+
+    .cart-total button {
+        border: none;
+        color: white;
+        background-color: tomato;
+        width: max(15vw, 250px);
+        padding: 5px 0px;
+        height: 30px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .cart-promocode-input input {
+        background: transparent;
+        border: none;
+        outline: none;
+        padding-left: -150px;
         padding-right: 0px;
     }
 }
