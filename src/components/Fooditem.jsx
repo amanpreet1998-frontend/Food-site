@@ -29,7 +29,7 @@ const Fooditem = ({ _id, name, price, description, image }) => {
 
     dispatch(addToCart({ _id, name, price, image }));
     toast.success('Item added to cart!', {
-      position: "top-center",
+      position: "bottom-center",
       autoClose: 1000,
       hideProgressBar: false,
       closeOnClick: true,
