@@ -1,5 +1,5 @@
 .bg_parallax_scroll {
-    background: url("../src/assets/Food_Assets/assets/parallax/bg.jpg") no-repeat center center;
+    background: url("../../assets/Food_Assets/assets/parallax/bg.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
