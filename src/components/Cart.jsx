@@ -146,7 +146,7 @@ const Cart = () => {
               <div>
                 <p className='m-4-lg  fs-4 fw-bold'>If you have a promocode, Enter it here</p>
                 <div className='cart-promocode-input'>
-                  <input type='text' placeholder='code' value={promoCode} onChange={(e) => setPromoCode(e.target.value)} />
+                  <input type='text' placeholder='code' value={            promocode} onChange={(e) => setPromoCode(e.target.value)} />
                   <button onClick={handleApplyPromoCode}>Submit</button>
                 </div>
                 <p className='m-5 fs-4'><i>New to our website? Get 10% off on your first order with promocode</i> <b className='text-danger'>FIRSTUSER!</b> </p>
