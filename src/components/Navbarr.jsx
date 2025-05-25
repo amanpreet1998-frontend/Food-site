@@ -37,7 +37,7 @@ const Navbarr = () => {
       await auth.signOut();
       navigate('/')
       toast.success('Logged out successfully', {
-        position: "top-center",
+        position: "bottom-center",
       })
     } catch (error) {
       console.error(error);
