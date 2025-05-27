@@ -31,9 +31,7 @@ const Cart = () => {
 
   const isCartEmpty = useSelector(selectIsCartEmpty);
 
-  //    if (isCartEmpty) {
-  //   return <p>Your cart is empty</p>;
-  // }
+  
 
 
 
