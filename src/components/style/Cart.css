@@ -127,6 +127,84 @@
     background-color: red;
     color: white;
 }
+.order-success-message{/*change*/
+    background-color: rgb(250, 62, 29);
+    font-size: x-large;
+    font-weight: bolder;
+    border: 5px solid rgb(250, 249, 249);
+    position:absolute;
+    height:550px;
+    width:1400px;
+    padding:200px;
+    padding-left: 450px;
+    margin-top: -10px;
+    margin-right: 100px;
+    color: aliceblue;
+}
+@media (max-width:1550px) {/*change*/
+.order-success-message{/*change*/
+    background-color: rgb(250, 62, 29);
+    font-size: x-large;
+    font-weight: bolder;
+    border: 5px solid rgb(250, 249, 249);
+    position:absolute;
+    height:550px;
+    width:1300px;
+    padding:200px;
+    padding-left: 450px;
+    margin-top: -10px;
+    margin-right: 100px;
+    color: aliceblue;
+}
+}
+@media (max-width:1450px) {/*change*/
+.order-success-message{/*change*/
+    background-color: rgb(250, 62, 29);
+    font-size: x-large;
+    font-weight: bolder;
+    border: 5px solid rgb(250, 249, 249);
+    position:absolute;
+    height:550px;
+    width:1200px;
+    padding:200px;
+    padding-left: 400px;
+    margin-top: -10px;
+    margin-right: 100px;
+    color: aliceblue;
+}
+}
+@media (max-width:1350px) {/*change*/
+.order-success-message{/*change*/
+    background-color: rgb(250, 62, 29);
+    font-size: x-large;
+    font-weight: bolder;
+    border: 5px solid rgb(250, 249, 249);
+    position:absolute;
+    height:550px;
+    width:1100px;
+    padding-top:200px;
+    padding-left: 300px;
+    margin-top: -10px;
+   
+    color: aliceblue;
+}
+}
+@media (max-width:1250px) {/*change*/
+.order-success-message{/*change*/
+    background-color: rgb(250, 62, 29);
+    font-size: x-large;
+    font-weight: bolder;
+    border: 5px solid rgb(250, 249, 249);
+    position:absolute;
+    height:550px;
+    width:1050px;
+    padding-top:200px;
+    padding-left: 250px;
+    margin-top: -10px;
+   
+    color: aliceblue;
+}
+}
 @media (max-width:1200px) {/*change*/
     .cart-bottom {
         flex-direction: column-reverse;
@@ -153,6 +231,16 @@
         padding-right:50px;
 width:700px;
     }
+    .order-success-message{/*change*/
+width:1000px;
+ padding-left: 200px;
+}
+}
+@media (max-width:1150px) {
+.order-success-message{/*change*/
+width:930px;
+ padding-left: 150px;
+}
 }
 @media (max-width:1100px) {/*change*/
     .cart-bottom {
@@ -170,6 +258,10 @@ width:700px;
         color: white;
         border-radius: 4px;
     }
+     .order-success-message{/*change*/
+width:900px;
+ padding-left: 100px;
+}
 }
 @media (max-width:1050px) {
     .cart-bottom {
@@ -189,6 +281,26 @@ width:700px;
         color: white;
         border-radius: 4px;
     }
+    .order-success-message{/*change*/
+width:850px;
+ padding-left: 90px;
+}
+}
+@media (max-width:1000px) {
+  .order-success-message{/*change*/
+width:800px;
+ padding-left: 150px;
+ font-size: larger;
+ 
+}  
+}
+@media (max-width:950px) {
+  .order-success-message{/*change*/
+width:750px;
+ padding-left: 100px;
+ font-size: larger;
+ 
+}  
 }
 
 @media (max-width:913px) {
@@ -214,6 +326,30 @@ width:700px;
         margin-left: 200px;
         margin-bottom: 30px;
     }
+    .order-success-message{/*change*/
+width:700px;
+ padding-left: 50px;
+ font-size: larger;
+ 
+}  
+}
+@media (max-width:850px) {
+  .order-success-message{/*change*/
+width:650px;
+ padding-left: 100px;
+ font-size: larger;
+ padding-right:100px;
+ 
+}  
+}
+@media (max-width:800px) {
+  .order-success-message{/*change*/
+width:600px;
+ padding-left: 70px;
+ font-size: larger;
+ padding-right:50px;
+ 
+}  
 }
 
 @media(max-width:769px) {
@@ -259,12 +395,46 @@ width:700px;
         margin-left:50px;/*change2*/
     }
 }
+@media (max-width:685px) {
+  .order-success-message{/*change*/
+width:550px;
+ padding-left: 50px;
+ font-size: larger;
+ padding-right:50px;
+ 
+}  
+}
 @media(max-width:650px) {/*change2*/
  .cart-promocode {
         justify-content: start;
          width:400px;/*change2*/
         margin-left:40px;/*change2*/
     }
+     .order-success-message{/*change*/
+width:520px;
+ padding-left: 30px;
+ font-size: large;
+ padding-right:30px;
+ 
+}  
+}
+@media (max-width:616px) {
+  .order-success-message{/*change*/
+width:500px;
+ padding-left: 30px;
+ font-size: larger;
+ padding-right:20px;
+ 
+}  
+}
+@media (max-width:581px) {
+  .order-success-message{/*change*/
+width:460px;
+ padding-left: 70px;
+ font-size: larger;
+ 
+ 
+}  
 }
 @media(max-width:541px) {
     .cart-bottom {
@@ -305,6 +475,13 @@ width:700px;
         padding-left: 100px;
         padding-right: 0px;
     }
+    .order-success-message{/*change*/
+width:430px;
+ padding-left: 70px;
+ font-size: larger;
+ 
+ 
+}  
 }
 @media(max-width:524px) {/*change2*/
  .cart-promocode {
@@ -312,6 +489,22 @@ width:700px;
          width:350px;/*change2*/
         margin-left:20px;/*change2*/
     }
+     .order-success-message{/*change*/
+width:400px;
+ padding-left: 70px;
+ font-size: larger;
+ 
+ 
+}  
+}
+@media(max-width:480px) {
+    .order-success-message{/*change*/
+width:370px;
+ padding-left: 70px;
+ font-size: larger;
+ 
+ 
+}  
 }
 @media(max-width:473px) {/*change2*/
  .cart-promocode {
@@ -319,6 +512,13 @@ width:700px;
          width:300px;/*change2*/
         margin-left:20px;/*change2*/
     }
+     .order-success-message{/*change*/
+width:350px;
+ padding-left: 70px;
+ font-size: larger;
+ 
+ 
+}  
 }
 @media(max-width:431px) {
     .cart {
@@ -472,7 +672,14 @@ width:200px;
         padding-right: 0px;
     }
 }
-
+@media(max-width:400px) {
+ .order-success-message{/*change*/
+width:320px;
+ padding-left: 70px;
+ font-size: medium;
+ 
+ 
+}  }
 @media(max-width:376px) {
     .cart {
         margin-top: 100px;
@@ -546,7 +753,22 @@ width:200px;
         padding-left: 50px;
         padding-right: 0px;
     }
+     .order-success-message{/*change*/
+width:300px;
+ padding-left: 40px;
+ font-size: medium;
+ 
+ 
+} 
 }
+@media(max-width:355px) {
+ .order-success-message{/*change*/
+width:270px;
+ padding-left: 30px;
+ font-size: medium;
+ 
+ 
+} }
 @media(max-width:345px) {
     .cart {
         margin-top: 100px;
