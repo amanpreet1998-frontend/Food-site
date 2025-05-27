@@ -7,7 +7,7 @@ import { removeFromCart, decreaseQuantity, increaseQuantity } from '../redux/Car
 import { applyPromoCode } from '../redux/CartSlice';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import { selectItems, selectTotalAmount, selectFinalAmount, selectDiscountAmount, selectIsCartEmpty } from '../redux/CartSlice';
-
+import { useLocation } from 'react-router-dom';/*change*/
 
 
 const auth = getAuth();
@@ -72,13 +72,19 @@ const Cart = () => {
     }
   };
 
-
+const location = useLocation();/*change*/
+const orderPlaced = location.state?.orderPlaced;/*change*/
 
 
 
   return (
     <>
       <div className='cart'>
+        {orderPlaced && (/*change*/
+  <div className="order-success-message" >
+    ✅ Your order has been placed successfully!
+  </div>
+)}
         <div className='cart-item'>
 
 
