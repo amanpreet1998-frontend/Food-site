@@ -16,6 +16,12 @@
   gap: 50px;
   row-gap: 50px;
 }
+.insta-logo,.indeed-logo,.mail-logo{
+  height:50px;
+  width:50px;
+  background-color: aliceblue;
+  border-radius: 20%;
+}
 
 @media (max-width:1025px) {
   .food-display {
@@ -455,12 +461,14 @@
     gap: 2px;
   }
 
-  .facebook-logo,
-  .twitter-logo,
-  .linkedin-logo {
-    margin-left: 20px;
-    padding: 40px;
+  .insta-logo,
+  .indeed-logo,
+  .mail-logo {
+    margin-left: 40px;
+    padding: 0px;
     gap: 50px;
+    height: 30px;
+    width:30px;
   }
 }
 
@@ -503,12 +511,14 @@
     gap: 2px;
   }
 
-  .facebook-logo,
-  .twitter-logo,
-  .linkedin-logo {
-    margin-left: 20px;
-    padding: 40px;
+ .insta-logo,
+  .indeed-logo,
+  .mail-logo {
+    margin-left: 40px;
+    padding: 0px;
     gap: 50px;
+    height: 30px;
+    width:30px;
   }
 }
 
@@ -641,12 +651,14 @@
     margin-top: 20px;
   }
 
-  .facebook-logo,
-  .twitter-logo,
-  .linkedin-logo {
-    margin-left: 40px;
-    padding: 10px;
+ .insta-logo,
+  .indeed-logo,
+  .mail-logo {
+    margin-left: 10px;
+    padding: 0px;
     gap: 50px;
+    height: 40px;
+    width:40px;
   }
  .footer-logo {
     height: 70px;
@@ -687,13 +699,14 @@
 
     font-size: small;
   }
-   .facebook-logo,
-  .twitter-logo,
-  .linkedin-logo {
-    margin-left: 40px;
-    padding: 10px;
-    height:50px;
-   
+   .insta-logo,
+  .indeed-logo,
+  .mail-logo {
+    margin-left: 10px;
+    padding: 0px;
+    gap: 50px;
+    height: 40px;
+    width:40px;
   }
 
 }
@@ -738,12 +751,14 @@
     margin-top: 20px;
   }
 
-  .facebook-logo,
-  .twitter-logo,
-  .linkedin-logo {
+  .insta-logo,
+  .indeed-logo,
+  .mail-logo {
     margin-left: 10px;
-    padding: 10px;
-   
+    padding: 0px;
+    gap: 50px;
+    height: 30px;
+    width:30px;
   }
   .footer-logo{
   width: 70px;
@@ -783,12 +798,14 @@
     gap: 2px;
   }
 
-  .facebook-logo,
-  .twitter-logo,
-  .linkedin-logo {
+ .insta-logo,
+  .indeed-logo,
+  .mail-logo {
     margin-left: 20px;
-    padding: 10px;
-   
+    padding: 0px;
+    gap: 50px;
+    height: 30px;
+    width:30px;
   }
   .footer-logo{
   width: 70px;
@@ -837,12 +854,14 @@
     
   }
 
-   .facebook-logo,
-  .twitter-logo,
-  .linkedin-logo {
-    margin-left: 50px;
-    padding: 10px;
-    gap: 0px;
+  .insta-logo,
+  .indeed-logo,
+  .mail-logo {
+    margin-left: 60px;
+    padding: 0px;
+    gap: 50px;
+    height: 30px;
+    width:30px;
   }
 .footer-logo{
   width: 70px;
@@ -927,12 +946,14 @@ font-size: small;
     gap: 2px;
   }
 
-  .facebook-logo,
-  .twitter-logo,
-  .linkedin-logo {
-    margin-left: 50px;
-    padding: 10px;
-    gap: 0px;
+ .insta-logo,
+  .indeed-logo,
+  .mail-logo {
+    margin-left: 60px;
+    padding: 0px;
+    gap: 50px;
+    height: 30px;
+    width:30px;
   }
 .footer-logo{
   width: 70px;
@@ -980,13 +1001,14 @@ font-size: small;
     margin-left: -60px;
     gap: 2px;
   }
-.facebook-logo,
-  .twitter-logo,
-  .linkedin-logo {
-    margin-left: 70px;
-    padding: 10px;
-    height:50px;
-   
+.insta-logo,
+  .indeed-logo,
+  .mail-logo {
+    margin-left: 50px;
+    padding: 0px;
+    gap: 50px;
+    height: 30px;
+    width:30px;
   }
   .footer-social-icons{
     gap:1px;
@@ -1049,13 +1071,14 @@ margin-top: 10px;
     gap: 2px;
   }
 
-  .facebook-logo,
-  .twitter-logo,
-  .linkedin-logo {
-    margin-left: 30px;
-    padding: 10px;
-    height:50px;
-   
+  .insta-logo,
+  .indeed-logo,
+  .mail-logo {
+    margin-left: 60px;
+    padding: 0px;
+    gap: 50px;
+    height: 30px;
+    width:30px;
   }
   .footer-social-icons{
     gap:1px;
@@ -1100,13 +1123,14 @@ margin-top: 10px;
     gap: 2px;
   }
 
-  .facebook-logo,
-  .twitter-logo,
-  .linkedin-logo {
-    margin-left: 30px;
-    padding: 10px;
-    height:40px;
-   
+  .insta-logo,
+  .indeed-logo,
+  .mail-logo {
+    margin-left: 50px;
+    padding: 0px;
+    gap: 50px;
+    height: 30px;
+    width:30px;
   }
   .footer-social-icons{
     gap:1px;
@@ -1188,13 +1212,14 @@ margin-top: 10px;
     gap: 2px;
   }
 
-  .facebook-logo,
-  .twitter-logo,
-  .linkedin-logo {
-    margin-left: 30px;
-    padding: 10px;
-    height:40px;
-   
+ .insta-logo,
+  .indeed-logo,
+  .mail-logo {
+    margin-left: 50px;
+    padding: 0px;
+    gap: 50px;
+    height: 30px;
+    width:30px;
   }
   .footer-social-icons{
     gap:1px;
