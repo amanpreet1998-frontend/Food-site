@@ -2,39 +2,6 @@ import { createSlice } from "@reduxjs/toolkit";
 import { toast } from "react-toastify";
 import { food_list } from "../assets/assets";
 
-const loadState = () => {
-  try {
-    const serializedState = localStorage.getItem('cart');
-    if (serializedState === null) {
-      return {
-        items: [],
-        totalAmount: 0,
-        discountAmount: 0,
-        finalAmount: 0,
-        deliveryFee: 2,
-      };
-    }
-    return JSON.parse(serializedState);
-  } catch (err) {
-    return {
-      items: [],
-      totalAmount: 0,
-      discountAmount: 0,
-      finalAmount: 0,
-      deliveryFee: 2,
-    };
-  }
-};
-const saveState = (state) => {
-  try {
-    const serializedState = JSON.stringify(state);
-    localStorage.setItem('cart', serializedState);
-  } catch (err) {
-    // Ignore write errors.
-  }
-};
-
-
 
 const calculateTotalAmount = (items) => {
   return items.reduce((total, item) => total + item.price * item.quantity, 0);
@@ -43,15 +10,14 @@ const calculateTotalAmount = (items) => {
 
 const cartSlice = createSlice({
   name: 'cart',
-   initialState: loadState()
-  //   items: [],
-  //   totalAmount: 0,
-  //   discountAmount: 0,
-  //   finalAmount: 0,
-  //   deliveryFee: 2,
+   initialState: {items: [],
+   totalAmount: 0,
+    discountAmount: 0,
+    finalAmount: 0,
+    deliveryFee: 2,
     
-
-   ,
+   },
+   
 
   reducers: {
 
@@ -66,7 +32,7 @@ const cartSlice = createSlice({
       }
       state.totalAmount = calculateTotalAmount(state.items);
       state.finalAmount = state.totalAmount;
-saveState(state);
+
 
       console.log('After adding item:', JSON.parse(JSON.stringify(state.items)));
     },
@@ -76,7 +42,7 @@ saveState(state);
       state.items = state.items.filter((i) => i.name !== itemName);
       state.totalAmount = calculateTotalAmount(state.items);
       state.finalAmount = state.totalAmount;
-      saveState(state);
+      
 
     },
 
@@ -92,7 +58,7 @@ saveState(state);
         }
         state.totalAmount = calculateTotalAmount(state.items);
         state.finalAmount = state.totalAmount;
-        saveState(state);
+        
 
       }
     },
@@ -105,7 +71,7 @@ saveState(state);
         item.quantity += 1;
         state.totalAmount = calculateTotalAmount(state.items);
         state.finalAmount = state.totalAmount;
-        saveState(state);
+       
 
       }
     },
@@ -122,9 +88,15 @@ saveState(state);
         state.finalAmount = state.totalAmount;
         toast.error('Promo code is not valid');
       }
-      saveState(state);
+      
 
     },
+    clearCart(state) {
+    state.items = [];
+    state.totalAmount = 0;
+    state.discountAmount = 0;
+    state.finalAmount = 0;
+  }
     },
   selectors: {
     selectItems: (state) => state.items,
@@ -137,7 +109,7 @@ saveState(state);
 
 })
 
-export const { addToCart, removeFromCart, decreaseQuantity, increaseQuantity, applyPromoCode } = cartSlice.actions
+export const { addToCart, removeFromCart, decreaseQuantity, increaseQuantity, applyPromoCode, clearCart } = cartSlice.actions
 export const { selectItems, selectTotalAmount, selectFinalAmount, selectDiscountAmount,selectIsCartEmpty} = cartSlice.selectors;
 
 
