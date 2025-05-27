@@ -7,7 +7,12 @@
     margin-left: 200px;
     margin-right: 200px;
 }
-
+.error {/*change*/
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 4px;
+  display: block;
+}
 @media(max-width:1025px) {
     .place-order {
         flex-direction: column;
