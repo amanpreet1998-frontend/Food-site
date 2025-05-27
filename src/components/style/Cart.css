@@ -127,7 +127,7 @@
     background-color: red;
     color: white;
 }
-.order-success-message{/*change*/
+.order-success-message{
     background-color: rgb(250, 62, 29);
     font-size: x-large;
     font-weight: bolder;
